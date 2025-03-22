@@ -11,13 +11,13 @@ Esta planilha ao ser preenchida fornece um resumo avaliando a aderência aos con
 ## Tópicos avaliados
 
 Checklist por Fator
-1. Codebase
-A API tem um único repositório de código (codebase) versionado?
-O código é compartilhado entre diferentes ambientes (dev, staging, produção) apenas através do versionamento?
-Há um processo claro para deploy a partir do repositório?
+1. Codebase  
+A API tem um único repositório de código (codebase) versionado?  
+O código é compartilhado entre diferentes ambientes (dev, staging, produção) apenas através do versionamento?  
+Há um processo claro para deploy a partir do repositório?  
 
-2. Dependencies
-Todas as dependências são explicitamente declaradas (ex: package.json, requirements.txt)?
+2. Dependencies  
+Todas as dependências são explicitamente declaradas (ex: package.json, requirements.txt)?  
 As dependências são isoladas (ex: usando virtualenv, Docker, etc.)?
 O build da API não depende de pacotes instalados globalmente no sistema?
 
